@@ -1,0 +1,274 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    height: 500px;
+    width: 100%;
+    background-image: url("./images/header-background-1.jpg");
+    background-size:cover ;
+    background-repeat: repeat         
+}
+.banner{
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    justify-content:space-between;
+    
+}
+/* stylings for logo with image */
+
+.logo{
+    height: 20px;
+    width: 20%;
+}
+
+.nav{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    margin-left: 50%;
+}
+
+.nav-item{
+    width:20%;
+    height: 90px;
+    font-size: 18px;
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 80px;
+    color:white;
+    cursor:pointer; 
+    transition: 0.4s;
+}
+
+.nav-item:hover{
+    color:chocolate;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.header-text{
+    font-size: 30px;
+    line-height:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input-group{
+    width: 50%;
+    /* align-items: center; */
+}
+.input-group-text{
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    display:flex;
+    padding: 0px;
+    margin: 0px;
+}
+.clients{
+    height: 500px;
+    width: 100%;
+}
+.image-white{
+    width:40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url("./images/white-quotation_adobespark.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.image-blue .card-deck{
+    margin-left: -320px;
+}
+
+.line{
+    line-height:40px;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    /* align-self: flex-end; */
+    margin-left: 240px;
+}
+.clients-logo{
+    margin-left:10px;
+    margin-top: 10px;
+
+}
+
+.image-blue{
+    width: 78.25%;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 10px;
+    background-image: url("./images/image_blue.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    flex-wrap:wrap;
+}
+.card{
+    height: 280px;
+    width: 60%;
+    max-width: 400px;
+    border: 2px;
+    border-radius: 5%;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align:justify;
+}
+.card-text{
+    margin-bottom: 0px;
+}
+
+.image{
+    border-radius: 50%;  
+    height:80%; 
+    width: 70px; 
+    margin-top:10px; 
+    color: white;
+    float: left;
+    margin-right:10px ;
+}
+.client-service{
+    color:deepskyblue ;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 80px;
+}
+
+.play{
+    color:white;
+    padding-top: 5px;
+    padding-left: 7px;
+    background-color: orangered;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+.btn-light{
+    font-style: italic;
+    color: orangered;
+}
+.play-button{
+    float: right;
+    margin-top: 20px;
+}
+
+.card-deck{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.logos{
+    background-color: rgb(226, 220, 220);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.investors{
+    background-image: url("./images/white-background.jpg");
+    height: 300px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.investors-logo{
+    background-image: url("./images/image_blue.jpg");
+    height: auto;
+    width: 100%;
+}         
+
+.investors-logo .card{
+    height: 200px;
+    margin-left: 0px;
+    align-items: center;
+    padding-top:30px;
+    margin-top: -70px;
+}
+.investors .line{
+    margin-left: 0px;
+}
+
+.investors-review{
+    color: white;
+}
+.review{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 30px;
+}
+.investors-review .image{
+    float: none;
+    margin-top:20px
+}
+hr{
+    width: 100px;
+    border-bottom: solid;
+    border-bottom-width: 3px;
+    border-color:white;
+    line-height: 40px;
+    margin-top: 60px;
+    margin-right: 10px;
+    margin-left: 10px;   
+}
+
+.founders{
+    background-image: url("./images/white-background.jpg");
+    height: 550px;
+}
+.founders .card-deck{
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+}
+.founders .card{
+    height: 230px;
+    
+    box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.1), 5px 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.founders .image{
+    height: 100px;
+    width: 90px;;
+}
+
+.page-footer{
+    height: 200px;
+    width: 100%;
+    background-color: tomato;
+    /* margin-top: 50px; */
+}
+
+h4{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.page-footer .input-group-text{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.page-footer .form-control{
+    background-color:rgb(221, 216, 216);
+}
